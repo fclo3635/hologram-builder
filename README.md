@@ -58,3 +58,18 @@ npm start
 ## 📄 License
 
 MIT License
+
+## 🧠 How It Works
+
+1. Camera captures hand movements
+2. MediaPipe detects hand landmarks
+3. Python sends data via WebSocket
+4. Three.js renders 3D objects
+5. Gestures control object behavior
+
+## 🚀 Project Highlights
+
+- Built a real-time AI-based gesture system
+- Developed full desktop app using Electron
+- Integrated Python backend with JS frontend
+- Implemented 3D rendering with real-time interaction
