@@ -1,0 +1,42 @@
+{
+  "name": "hologram-builder",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "30.5.1",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+  "appId": "com.hologram.builder",
+  "productName": "Hologram Builder",
+  "compression": "maximum",
+  "asar": true,
+  "removePackageScripts": true ,
+
+  "files": [
+    "main.js",
+    "web/**/*",
+    "!**/__pycache__/**",
+    "!**/*.pyc",
+    "!**/*.pyo",
+    "!**/*.md",
+    "!**/tests/**",
+  "!**/*.map"
+  ],
+
+  "extraResources": [
+    {
+      "from": "backend",
+      "to": "backend"
+    }
+  ],
+
+  "win": {
+    "target": "nsis"
+  }
+}
+}
